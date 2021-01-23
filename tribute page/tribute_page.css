@@ -1,0 +1,76 @@
+#main{
+  background:#FAF0E6;
+  font-family: serif;
+  font-size:1.5em;
+  
+}
+h1{  
+    font-size: 50px;
+    font-weight:bold;
+}
+
+.title{
+  background-color: 	#FFA07A;
+  text-align:center;
+  padding:1em ;
+  color: 	#FFE4E1;
+}
+
+#photo{  
+  background:white;
+} 
+#img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
+}
+@media(max-width: 460px){
+  #img{
+    width:100%;
+  }
+}
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+    font-size:1.5em;
+  }
+} 
+@media (max-width: 460px) {
+  h1 {
+    line-height: 1.2;
+  }
+}
+figcaption{
+text-align:center;
+}
+
+.bio{
+text-align:center;
+}
+
+#timeline{
+  text-align:center;
+  margin-top:3em;
+}
+ul{
+  margin:0 auto 50px auto;
+  text-align:left;
+  max-width:550px;
+  line-height:1.5em;
+}
+
+#cite{
+  font-style:italic;
+  text-align:center;
+}
+
+#link{
+  margin-top:5em;
+}
+
+
+
+
+
+
