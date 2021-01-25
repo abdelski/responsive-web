@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="survey_form_style.css">
+<title>Survey Form</title>
+</head>
+<body>
+<div class="main">
+  <header class="header">
+  <h1>Survey form</h1>
+  <p id="headp">Thank you for taking the time to fill out the form!</p>
+  </header>
+  
+  <form class="form">
+    <div class="group">
+      <label for="name" class="form-labels">Name</label>
+      <input type="text" class="form-inputs" id="name" placeholder="Enter your name">
+    </div>    
+    
+    <div class="group">
+      <label for="email" class="form-labels">Email</label>
+      <input type="email" class="form-inputs" id="email"placeholder="Enter your email">
+    </div>
+    
+    
+    <div class="group">
+      <label for="age" class="form-labels">Age</label>
+      <input type="number" class="form-inputs" id="age" placeholder="Age">
+    </div>
+    
+    
+    <div class="group">
+      <p>Your current role?</p>
+      <select class="form-select">
+        <option disabled selected value>Select current role</option>
+        <option>Student</option>
+        <option>Full Time Job</option>
+        <option>Full Time Learner</option>
+        <option>Prefer not to say</option>
+        <option>Other</option>
+      </select>
+    </div>
+    
+    <div class="group">
+      <p>Did you like this form?</p>
+      <label class="check-radio1"><input type="radio" checked> Definitely</label>
+      <label class="check-radio1"><input type="radio">  Maybe</label>
+      <label class="check-radio1"><input type="radio"> Not sure</label>
+    </div>
+    
+    <div class="group">
+      <p>What is your favourite anime?</p>
+      <select class="form-select">
+        <option disabled selected value>Select an option</option>
+        <option>Naruto</option>
+        <option>Fairy Tale</option>
+        <option>Hunter x Hunter</option>
+        <option>Black Clover</option>
+        <option>One Peace</option>
+        <option>Boruto</option>
+        </select>
+      </div>
+    
+    <div class="group">
+      <p>What is your favorite film generes? <span class="clue">(Check all that apply)</span></p>
+      <label class="check-radio"><input type ="checkbox" >Action</label>
+      <label class="check-radio"><input type ="checkbox">Comedy</label>
+      <label class="check-radio"><input type ="checkbox">Adventure</label>
+      <label class="check-radio"><input type ="checkbox">Crime & Gangster</label>
+      <label class="check-radio"><input type ="checkbox">Drama</label>
+      <label class="check-radio"><input type ="checkbox">Horror</label>
+      <label class="check-radio"><input type ="checkbox">Science Fiction</label>
+      <label class="check-radio"><input type ="checkbox">Westerns</label>
+      <label class="check-radio"><input type ="checkbox">Fantasy</label>
+      <label class="check-radio"><input type ="checkbox">Thriller-Suspens </label>
+      <label class="check-radio"><input type ="checkbox">Documentary</label>
+      </div>
+    
+            
+    <div class="group">
+      <p>Any comments or suggestions?</p>
+      <textarea placeholder="Enter your comment here..." class="form-inputs"></textarea>
+      </div>
+    
+    <div class="group">
+      <button type="submit" class="buttonsumbit">Submit</button>
+    </div>
+  </form>
+</div>
+</body>
